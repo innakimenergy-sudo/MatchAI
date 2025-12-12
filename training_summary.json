@@ -1,0 +1,28 @@
+{
+  "model_name": "distilbert/distilbert-base-uncased",
+  "training_date": "2025-12-10T15:03:53.373597",
+  "training_time_seconds": 3516.889809846878,
+  "training_time_minutes": 58.614830164114636,
+  "final_accuracy": 0.502,
+  "training_loss": 1.0380982898530506,
+  "training_samples": 500,
+  "evaluation_samples": 500,
+  "hyperparameters": {
+    "batch_size": 8,
+    "epochs": 2,
+    "learning_rate": 2.4e-05,
+    "warmup_ratio": 0.05
+  },
+  "label_mapping": {
+    "0": "No Fit",
+    "1": "Potential Fit",
+    "2": "Good Fit"
+  },
+  "speed_optimizations": [
+    "no_evaluation_during_training",
+    "no_checkpointing",
+    "minimal_dataset_subsets",
+    "no_fp16",
+    "fast_learning_rate"
+  ]
+}
