@@ -78,8 +78,8 @@ with tab3:
             st.warning("⚠️ Create requirements.txt")
     
 st.divider()
-    st.subheader("📋 Next Steps")
-    st.markdown("""
+st.subheader("📋 Next Steps")
+st.markdown("""
     1. **Push to GitHub** with Git LFS
     2. **Deploy on Streamlit Cloud**
     3. **Share your model links**
