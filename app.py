@@ -77,7 +77,7 @@ with tab3:
         else:
             st.warning("⚠️ Create requirements.txt")
     
-  st.divider()
+st.divider()
     st.subheader("📋 Next Steps")
     st.markdown("""
     1. **Push to GitHub** with Git LFS
