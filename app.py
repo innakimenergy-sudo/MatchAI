@@ -12,7 +12,7 @@ with st.sidebar:
     st.header("📁 Model Files")
     
 files = os.listdir(".")
-    for file in sorted(files):
+for file in sorted(files):
         if os.path.isfile(file):
             size = os.path.getsize(file)
             size_mb = size / (1024 * 1024)
