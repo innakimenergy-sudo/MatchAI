@@ -45,7 +45,7 @@ with tab2:
     st.header("Configuration")
 json_files = [f for f in os.listdir(".") if f.endswith(".json")]
     
-    for json_file in json_files:
+for json_file in json_files:
         with st.expander(f"📄 {json_file}"):
             try:
                 with open(json_file, "r") as f:
