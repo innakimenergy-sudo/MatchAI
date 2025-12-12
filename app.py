@@ -19,8 +19,8 @@ for file in sorted(files):
             icon = "🔶" if "model.safetensors" in file else "📄"
             st.write(f"{icon} {file}: {size_mb:.1f} MB")
     
-    st.divider()
-    st.info("**Large File Handling**: model.safetensors uses Git LFS")
+st.divider()
+st.info("**Large File Handling**: model.safetensors uses Git LFS")
 tab1, tab2, tab3 = st.tabs(["Model", "Config", "Deployment"])
 
 with tab1:
