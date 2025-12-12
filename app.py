@@ -33,7 +33,7 @@ with tab1:
         st.metric("File Size", f"{size:.1f} MB")
     else:
         st.error("❌ model.safetensors not found!")
- if os.path.exists("config.json"):
+    if os.path.exists("config.json"):
         st.success("✅ Config file found")
         with open("config.json", "r") as f:
             config = json.load(f)
